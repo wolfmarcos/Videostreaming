@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+    body ;main{height: 100vh;}
+    header{height: 200px;}
+    
+
+
+    content{
+    /* margin: 0;   */
+    height: 99vh;
+display: grid;
+
+grid-template-columns: repeat(4, 200px);
+grid-template-rows: (4,200px);
+background-color: black;
+grid-gap: 10px
+}
+.tajeta{
+    display: flex;
+    background-color: rgb(190, 14, 14);}
+  
+

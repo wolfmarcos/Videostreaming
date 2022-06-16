@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+body{background-color:black}
+ main{height: 100vh;
+background-color:black;}
+    header{
+      /* display: flex; */
+    /* width: 100%; */
+  }
+    .content{
+      /* margin: 110px;   */
+      height: 99vh;
+  display: grid;
+  
+  grid-template-columns:repeat(1,minmax(220px, 70%));
+  /* grid-template-rows:repeat(auto,minmax(220px, 80px)); */
+  background-color: black;
+  /* grid-gap: 10px; */
+  justify-content: center;
+  /* gap:5em */
+  }
+  .tajeta{
+    display: flex;
+    background-color:rgb(228, 44, 44);
+ /* align-items: center; */
+flex-direction: column;
+/* height: 100%; */
+/* width: 100%; */
+}
+ .imgC{
+  /* flex: 10; */
+  /* min-height: 290px;  */
+/* width: 1000; */
+/* max-height: 100%; */
+background-color:brown ;
+}
+ .img{
+  height: 100%;
+width: 100%;
+
+
+object-fit: contain;
+/* align-items:center */
+}
+.texto{
+  /* min-height: 200px; */
+  display:flex;
+  flex-wrap: wrap;
+  /* max-width: 170px; */
+  /* justify-content:space-around; */
+  /* flex: 1; */
+
+  /* height: 100%; */
+}
+.texto h2 {flex: 1;
+font-size: 21px;
+color: burlywood;
+
+}
+.texto h3 {flex: 1;
+  font-size: 18px;
+  color:azure
+  }
+
+  @media screen and (min-width:500px) {
+    .content{
+       
+      height: 99vh;
+  display: grid;
+  
+  grid-template-columns:repeat(4,170px);
+  /* grid-template-rows:repeat( auto-fill, minmax(250px,1fr)); */
+  background-color: black;
+  /* grid-gap: 10px; */
+  /* justify-content:space-around; */
+  /* gap:9em */
+  }
+
+    
+  }
+  
+
