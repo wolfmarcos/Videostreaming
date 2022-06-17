@@ -35,6 +35,10 @@
       .ico1:hover , .ico2:hover{height: 90px ;width: 90px;}
 
 body{background-color:black;
+/* height: 100%; */
+/* width: 100%; */
+
+
 }
 body{
   /* height: 90vh; */
@@ -157,7 +161,6 @@ margin: 50px;
   justify-content: center;
   gap:2em;
  background-color: brown;
- /* align-items:flex-end */
   }
   .content2{
     /* margin: 160px;   */
@@ -327,17 +330,17 @@ width: auto;
     }
 
     .content{
-      /* width: 99vh; */
+      /* width: 100%; */
       /* height: 99vh; */
      background-color: rgb(52, 13, 159);
   display: grid;
   
-  grid-template-columns:repeat( 4, minmax(200px,1fr));
+  grid-template-columns:repeat( 4, minmax(180px,1fr));
   /* grid-template-rows:repeat( auto, minmax(0.5fr,0.8fr)); */
   /* margin:  0 220px; */
-  /* grid-gap: 3em; */
+  grid-gap: 3em;
   justify-content:center;
-  /* margin-top: 10px; */
+  margin-top: 10px;
   
   
   }
@@ -351,7 +354,7 @@ grid-template-columns:repeat( 2, minmax(440px,700px));
 /* grid-template-rows:0.4fr; */
 /* margin:  0 220px; */
 grid-gap: 3em;
-justify-content:center;
+justify-content:;
 
 
 
