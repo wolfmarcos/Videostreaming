@@ -170,7 +170,7 @@ main {
   background-color: black;
   justify-content: center;
   gap: 2em;
-  /* background-color: brown; */
+  background-color: brown;
   /* align-items:flex-end */
   /* margin: 160px;   */
   /* width: 100%; */
@@ -368,17 +368,25 @@ main {
     display: grid;
     grid-template-columns: repeat(4, minmax(200px, 1fr));
       justify-content: center;
-    }
+   
+
+
+  }
 
   .content2 {
-      background-color: black;
+  
+    background-color: black;
     display: grid;
-    grid-gap: 3em;
-    justify-content: center;
+
     grid-template-columns: repeat(2, minmax(440px, 700px));
     /* grid-template-rows:0.4fr; */
     /* margin:  0 220px; */
-   }
+    grid-gap: 3em;
+    justify-content: center;
+
+
+
+  }
 
   .nav1 {
      display: flex;
@@ -406,7 +414,9 @@ main {
     /* background-color: brown; */
     /* padding: 30px; */
     /* margin: 20px; */
+
     display: flex;
+
   }
 
   .nav1 a {
@@ -421,7 +431,8 @@ main {
   }
 
   .nav1 a:hover {
-      border-bottom: solid 2px brown;
+    /* background-color: brown; */
+    border-bottom: solid 2px brown;
     transition: 0.5s;
     /* border-radius: 5px; */
 
